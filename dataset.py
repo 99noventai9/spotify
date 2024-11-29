@@ -2,9 +2,7 @@ import streamlit as st
 import requests
 import pandas as pd
 import numpy as np
-import plotly.express as px
-fig = px.bar(x=["a", "b", "c"], y=[1, 3, 2])
-fig.write_html('first_figure.html', auto_open=True)
+
 # Configuración de la página
 st.set_page_config(page_title="Deezer Top Charts", page_icon="🎵", layout="wide")
 
